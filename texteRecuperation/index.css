@@ -1,0 +1,99 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:url("./assets/imageArriere.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    border:2px, solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 50px;
+
+}
+.row{
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-between; 
+   width: 350px ;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100px;
+    
+}
+.error{
+    
+    width: 350px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.errorMsg{
+    font-size: 20px;
+    color:red;
+}
+
+.fileSection{
+    width: 400px;
+
+}
+.inputText{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding:5px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.btnAnnuler,.btnEnvoyer{
+    width: 100px;
+    height: 25px;
+    border-radius:2px;
+    cursor: pointer;
+
+}
+
+.btnAnnuler{
+    background-color:#ffffff;
+    color:black;
+
+}
+
+.btnEnvoyer{
+    background-color:rgb(196, 196, 240);
+    color:black;
+
+}
+.btnAnnuler:hover{
+    width: 95px;
+    height: 23px;
+    
+}
+.btnEnvoyer:hover{
+    width: 95px;
+    height: 23px;
+}
+
+
